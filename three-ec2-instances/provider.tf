@@ -8,7 +8,7 @@ terraform {
 
 backend "s3" {
   bucket = "linga-devops-rs"
-  key = "three-ec2-instances-roles-common"
+  key = "three-ec2-instances-expense-ansible-tags"
   region = "us-east-1"
   #dynamodb_table = "roboshop13-locking"
   use_lockfile = true
