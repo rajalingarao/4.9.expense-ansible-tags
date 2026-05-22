@@ -18,6 +18,7 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 
+
 # Login into mysql server and troubleshoot the data.
 ```
 mysql -h db.lithesh.shop -u root -pExpenseApp@1
