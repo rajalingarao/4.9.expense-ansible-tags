@@ -1,7 +1,7 @@
 #!/bin/bash
 dnf install ansible -y
 cd /tmp
-git clone https://github.com/Lingaiahthammisetti/4.9.expense-ansible-tags.git
+git clone https://github.com/rajalingarao/4.9.expense-ansible-tags.git
 cd 4.9.expense-ansible-tags
 ansible-playbook main.yaml -e component=db
 ansible-playbook main.yaml -e component=db #Run twice db.yaml
