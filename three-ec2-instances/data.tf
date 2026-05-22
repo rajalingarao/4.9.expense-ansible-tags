@@ -1,20 +1,19 @@
 data "aws_ami" "rhel_info" {
 
-	most_recent      = true
-	owners = ["973714476881"]
-	
-	filter {
-		name   = "name"
-		values = ["RHEL-9-DevOps-Practice"]
-	}
-	
-	filter {
-		name   = "root-device-type"
-		values = ["ebs"]
-	}
+  most_recent = true
+  owners = ["973714476881"]
 
+  filter {
+    name   = "name"
+    values = ["Redhat-9-DevOps-Practice"]
+  }
+
+  filter {
+    name   = "root-device-type"
+    values = ["ebs"]
+  }
     filter {
-        name   = "virtualization-type"
-        values = ["hvm"]
-    }
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
 }
