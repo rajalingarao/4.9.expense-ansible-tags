@@ -1,6 +1,6 @@
 login_user: root
 login_password: ExpenseApp@1
-login_host: db.lingaiah.online
-DB_HOST: db.lingaiah.online
+login_host: db.lithesh.shop
+DB_HOST: db.lithesh.shop
 app_location: /app
 component: backend
